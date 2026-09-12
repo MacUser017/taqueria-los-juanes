@@ -5,7 +5,7 @@ export default function SimpleListSection({ sections }: { sections: DishSection[
   return (
     <>
       {sections.map((section) => (
-        <section key={section.key} id={section.key} className="mx-auto max-w-3xl scroll-mt-20 px-4 py-10">
+        <section key={section.key} id={section.key} className="mx-auto max-w-3xl scroll-mt-20 bg-masa px-4 py-10">
           <h2 className="mb-1 border-b-4 border-marigold pb-2 font-display text-3xl font-bold text-chile">
             {section.title}
           </h2>

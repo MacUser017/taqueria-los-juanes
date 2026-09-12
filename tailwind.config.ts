@@ -8,12 +8,12 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        masa: "#fdf6e9",
-        chile: "#c1272d",
-        chileDark: "#8f1c21",
-        lime: "#6b8e23",
-        cocoa: "#3b2314",
-        marigold: "#f4a300",
+        masa: "#0d0d0d",
+        chile: "#c89b3c",
+        chileDark: "#9b7429",
+        lime: "#55451f",
+        cocoa: "#f2e4c2",
+        marigold: "#dfb552",
       },
       fontFamily: {
         display: ["Georgia", "serif"],

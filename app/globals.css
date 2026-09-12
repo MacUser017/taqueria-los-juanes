@@ -7,6 +7,56 @@ html {
 }
 
 body {
-  background-color: #fdf6e9;
-  color: #3b2314;
+  background-color: #0d0d0d;
+  color: #f2e4c2;
+}
+
+.agave-corner {
+  position: fixed;
+  bottom: -0.5rem;
+  z-index: 0;
+  width: 7rem;
+  height: 10rem;
+  pointer-events: none;
+  opacity: 0.55;
+}
+
+.agave-corner-left {
+  left: -1.5rem;
+  transform: rotate(-10deg);
+}
+
+.agave-corner-right {
+  right: -1.5rem;
+  transform: scaleX(-1) rotate(-10deg);
+}
+
+.agave-corner span {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0.65rem;
+  height: 8rem;
+  border: 1px solid #c89b3c;
+  border-bottom: 0;
+  border-radius: 100% 0 0 0;
+  transform-origin: bottom center;
+}
+
+.agave-corner span:nth-child(1) { transform: translateX(-50%) rotate(-48deg); height: 5.5rem; }
+.agave-corner span:nth-child(2) { transform: translateX(-50%) rotate(-32deg); height: 7rem; }
+.agave-corner span:nth-child(3) { transform: translateX(-50%) rotate(-16deg); height: 8.5rem; }
+.agave-corner span:nth-child(4) { transform: translateX(-50%); height: 9.5rem; }
+.agave-corner span:nth-child(5) { transform: translateX(-50%) rotate(16deg); height: 8.5rem; }
+.agave-corner span:nth-child(6) { transform: translateX(-50%) rotate(32deg); height: 7rem; }
+.agave-corner span:nth-child(7) { transform: translateX(-50%) rotate(48deg); height: 5.5rem; }
+
+@media (max-width: 640px) {
+  .agave-corner {
+    width: 5rem;
+    height: 7rem;
+    opacity: 0.45;
+  }
+
+  .agave-corner span { height: 5.5rem; }
 }

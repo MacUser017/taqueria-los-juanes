@@ -11,16 +11,16 @@ export default function MenuSectionView({ sections }: { sections: DishSection[] 
   return (
     <>
       {sections.map((section) => (
-        <section key={section.key} id={section.key} className="mx-auto max-w-3xl scroll-mt-20 px-4 py-10">
+        <section key={section.key} id={section.key} className="mx-auto max-w-3xl scroll-mt-20 bg-masa px-4 py-10">
           <h2 className="mb-1 border-b-4 border-marigold pb-2 font-display text-3xl font-bold text-chile">
             {section.title}
           </h2>
-          {section.hours && <p className="mt-2 text-sm font-semibold text-lime">Served {section.hours}</p>}
+          {section.hours && <p className="mt-2 text-sm font-semibold text-marigold">Served {section.hours}</p>}
           {section.note && <p className="mt-2 text-sm italic text-cocoa/70">{section.note}</p>}
 
           <div className="mt-6 grid gap-5 sm:grid-cols-2">
             {section.items.map((item) => (
-              <div key={`${item.day ?? ""}${item.name}`} className="flex flex-col gap-2 rounded-xl border border-marigold/30 bg-white/60 p-4 shadow-sm">
+              <div key={`${item.day ?? ""}${item.name}`} className="flex flex-col gap-2 rounded-xl border border-marigold/30 bg-black p-4 shadow-sm">
                 <div className="flex items-start justify-between gap-2">
                   <h3 className="font-display text-lg font-semibold text-cocoa">
                     {item.day && (

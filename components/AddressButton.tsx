@@ -13,12 +13,12 @@ export default function AddressButton() {
       <button
         onClick={() => setOpen(true)}
         aria-label="Show restaurant address"
-        className="fixed bottom-4 left-4 z-40 flex h-12 w-12 items-center justify-center rounded-full bg-cocoa text-masa shadow-lg transition-transform hover:scale-105"
+        className="fixed bottom-4 left-4 z-40 flex h-12 w-12 items-center justify-center rounded-full border border-chile bg-masa text-cocoa shadow-lg transition-transform hover:scale-105"
       >
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="h-7 w-7">
           <path
             d="M3 6.5 8.5 5l7 1.5L21 5v12.5l-5.5 1.5-7-1.5L3 19V6.5Z"
-            fill="#fdf6e9"
+            fill="#f2e4c2"
             stroke="#8a7a5c"
             strokeWidth={1.2}
             strokeLinejoin="round"
@@ -55,7 +55,7 @@ export default function AddressButton() {
           onClick={() => setOpen(false)}
         >
           <div
-            className="w-full max-w-xs rounded-2xl bg-masa p-5 text-center shadow-2xl"
+            className="w-full max-w-xs rounded-2xl border border-chile bg-masa p-5 text-center shadow-2xl"
             onClick={(e) => e.stopPropagation()}
           >
             <p className="font-display text-lg font-semibold text-cocoa">Taqueria Los Juanes</p>
