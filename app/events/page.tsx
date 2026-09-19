@@ -17,8 +17,8 @@ export default function EventsPage() {
         <article className="overflow-hidden rounded-xl border border-marigold/50 bg-black shadow-[0_8px_24px_rgba(0,0,0,0.3)]">
           <div className="relative aspect-[2/3] w-full">
             <Image
-              src="/media/photos/foto_event_karaoke.jpg"
-              alt="Karaoke night with Jorge Alvarez on Saturday, September 12 at 7 PM"
+              src="/media/photos/karaoke_vallenatos_los_juanes.webp"
+              alt="Karaoke night with DJNANDO492 on Saturday, September 19 at 8 PM"
               fill
               className="object-cover"
             />
