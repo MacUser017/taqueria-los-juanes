@@ -671,6 +671,346 @@ price: 6.0,
 },
 ],
 },
+{
+  key: "enchiladas",
+  title: "Enchiladas",
+  note:
+    "Enchiladas are served with rice, beans, lettuce, pico de gallo, sour cream & Mexican cheese.",
+  items: [
+    {
+      name: "Poblanas",
+      price: 15.99,
+      description: "Stuffed with chicken topped with mole sauce.",
+      photo: "/media/webp-images/Enchiladas/Poblanas.webp",
+    },
+    {
+      name: "Enchiladas Verdes",
+      price: 15.99,
+      description: "Stuffed with chicken topped with tomatillo sauce.",
+      photo: "/media/webp-images/Enchiladas/enchiladasVerdes.webp",
+    },
+    {
+      name: "Enchiladas Potosinas",
+      price: 15.99,
+      description:
+        "Stuffed with queso fresco and onions, topped with guajillo sauce & flank steak.",
+      photo: "/media/webp-images/Enchiladas/enchiladasPotosinas.webp",
+    },
+    {
+      name: "Enchiladas Al Chipotle",
+      price: 15.99,
+      description: "Stuffed with chicken topped with chipotle cream sauce.",
+      photo: "/media/webp-images/Enchiladas/enchiladasAlChipotle.webp",
+    },
+  ],
+},
+
+{
+  key: "bowl",
+  title: "Bowl",
+  note:
+    "Base fresh lettuce with rice, black beans, roasted corn, pico de gallo, cucumbers, tortilla strips, guacamole & sour cream.",
+  items: [
+    {
+      name: "Pollo Asado",
+      price: 12.99,
+      photo: "/media/webp-images/Bowl/polloAsado.webp",
+    },
+    {
+      name: "Steak",
+      price: 12.99,
+      photo: "/media/webp-images/Bowl/steak.webp",
+    },
+    {
+      name: "Shrimp",
+      price: 15.99,
+      photo: "/media/webp-images/Bowl/shrimp.webp",
+    },
+    {
+      name: "Carnitas",
+      price: 13.99,
+      photo: "/media/webp-images/Bowl/carnitas.webp",
+    },
+    {
+      name: "Texano",
+      price: 15.99,
+      photo: "/media/webp-images/Bowl/texano.webp",
+    },
+  ],
+},
+
+{
+  key: "birria",
+  title: "Birria",
+  items: [
+    {
+      name: "Quesabirrias",
+      price: 14.99,
+      photo: "/media/webp-images/Birria/quesaBirria.webp",
+    },
+    {
+      name: "Burrito Birria",
+      price: 14.99,
+      photo: "/media/webp-images/Birria/burritoBirria.webp",
+    },
+    {
+      name: "Quesadilla Birria",
+      price: 14.99,
+      photo: "/media/webp-images/Birria/quesadillaBirria.webp",
+    },
+    {
+      name: "Pizza Birria",
+      price: 17.99,
+      photo: "/media/webp-images/Birria/pizzaBirria.webp",
+    },
+    {
+      name: "Ramen Birria",
+      price: 15.99,
+      photo: "/media/webp-images/Birria/ramenBirria.webp",
+    },
+  ],
+},
+
+{
+  key: "recommendations",
+  title: "Recommendations",
+  items: [
+    {
+      name: "Molcajete",
+      price: 30.0,
+      description:
+        "Grilled chicken, shrimp, flank steak, queso fresco, toreado pepper, home made chorizo, cambray, cactus. Served with rice, beans & guacamole salad.",
+      photo: "/media/webp-images/Recomendations/molcajete.webp",
+    },
+    {
+      name: "Piña Loca",
+      price: 24.0,
+      description:
+        "Grilled chicken, shrimp, onion, bell peppers, pineapple covered with melted cheese & pico de gallo. Served with fajita salad.",
+      photo: "/media/webp-images/Recomendations/pinaLoca.webp",
+    },
+    {
+      name: "Parrillada",
+      price: 27.0,
+      description:
+        "Grilled chicken, steak, shrimp, home made chorizo, queso fresco, chile toreado, cambray onions, bell peppers & tomato. Served with fajita salad.",
+      photo: "/media/webp-images/Recomendations/parillada.webp",
+    },
+  ],
+},
+
+{
+  key: "mexican-fajitas",
+  title: "Mexican Fajitas",
+  note:
+    "A combination of grilled onions, green peppers & tomatoes. Served with rice, beans, guacamole salad, sour cream & tortillas.",
+  items: [
+    {
+      name: "Chicken Fajitas",
+      price: 15.99,
+      photo: "/media/webp-images/Mexican Fajitas/chickenFajitas.webp",
+    },
+    {
+      name: "Steak Fajitas",
+      price: 15.99,
+      photo: "/media/webp-images/Mexican Fajitas/steakFajitas.webp",
+    },
+    {
+      name: "Shrimp Fajitas",
+      price: 16.99,
+      photo: "/media/webp-images/Mexican Fajitas/shrimpFajitas.webp",
+    },
+    {
+      name: "Fish Fajitas",
+      price: 16.99,
+      photo: "/media/webp-images/Mexican Fajitas/fishFajita.webp",
+    },
+    {
+      name: "Texan Fajitas",
+      price: 17.99,
+      description: "Steak, shrimp & chicken.",
+      photo: "/media/webp-images/Mexican Fajitas/texanFajitas.webp",
+    },
+    {
+      name: "Del Mar",
+      price: 17.99,
+      description: "Fish & shrimp.",
+      photo: "/media/webp-images/Mexican Fajitas/delMar.webp",
+    },
+  ],
+},
+
+{
+  key: "seafood",
+  title: "Seafood",
+  items: [
+    {
+      name: "Mojarra Frita",
+      price: 18.99,
+      description:
+        "Fried whole tilapia fish served with rice, beans, salad, guacamole, sour cream & flour or corn tortillas.",
+      photo: "/media/webp-images/Seafood/mojaraFrita.webp",
+    },
+    {
+      name: "Filete De Pescado",
+      price: 15.99,
+      description:
+        "Grilled or fried tilapia fillet served with rice, beans, lettuce, pico de gallo, guacamole & choice of flour or corn tortillas.",
+      photo: "/media/webp-images/Seafood/filetePescado.webp",
+    },
+    {
+      name: "A.C.C. Rice with Shrimp",
+      price: 16.99,
+      description:
+        "Grilled shrimp & vegetables, served on a bed of rice topped with melted cheese sauce. Choice flour or corn tortillas.",
+      photo: "/media/webp-images/Seafood/A.C.C.webp",
+    },
+    {
+      name: "Camarones Los Juanes",
+      price: 20.99,
+      description:
+        "Sautéed skin on shrimp cooked with onions, garlic & dry chilli, served on a bed of lettuce, cucumbers & tomatoes.",
+      photo: "/media/webp-images/Seafood/camaronesLosJuanes.webp",
+    },
+    {
+      name: "Camarones a la Diabla",
+      price: 16.99,
+      description:
+        "Devil style shrimp cooked with onions, garlic & our special hot sauce served with rice, beans & guacamole salad.",
+      photo: "/media/webp-images/Seafood/camaronesALaDiabla.webp",
+    },
+    {
+      name: "Camarones al Mojo de Ajo",
+      price: 16.99,
+      description:
+        "Garlic style shrimp cooked in garlic sauce, served with rice, beans, guacamole salad & tortillas.",
+      photo: "/media/webp-images/Seafood/camaronesAlMojoDeAjo.webp",
+    },
+    {
+      name: "Camarones al Chipotle",
+      price: 16.99,
+      description:
+        "Grilled shrimp, onions & mushrooms, topped with our special chipotle cream sauce. Served with rice, beans, fajita salad & tortillas.",
+      photo: "/media/webp-images/Seafood/camaronesAlChipotle.webp",
+    },
+    {
+      name: "Shrimp Tacos (4)",
+      price: 16.99,
+      description:
+        "Grilled shrimp, onions, bell peppers, lettuce & pico de gallo.",
+      photo: "/media/webp-images/Seafood/shrimpTacos.webp",
+    },
+    {
+      name: "Tacos Ensenada (3)",
+      price: 14.99,
+      description:
+        "Fried fish tacos served on a flour tortilla with coleslaw, chipotle mayo & red onion pickles.",
+      photo: "/media/webp-images/Seafood/tacosEnsenada.webp",
+    },
+    {
+      name: "Fish Tacos (4)",
+      price: 16.99,
+      description:
+        "Grilled fish, onions, bell peppers, lettuce & pico de gallo.",
+      photo: "/media/webp-images/Seafood/fishTacos.webp",
+    },
+    {
+      name: "Coctel De Camarón",
+      price: 17.99,
+      description: "Shrimp cocktail.",
+      photo: "/media/webp-images/Seafood/coctelDeCamaron.webp",
+    },
+    {
+      name: "Coctel Campechano",
+      price: 20.99,
+      description: "Shrimp & octopus cocktail.",
+      photo: "/media/webp-images/Seafood/coctelCampechano.webp",
+    },
+    {
+      name: "Tostada de Ceviche (2)",
+      price: 17.99,
+      unitPrice: 9.99,
+      description: "Shrimp or fish.",
+      addOns: [
+        {
+          name: "Octopus",
+          price: 4.0,
+        },
+      ],
+      photo: "/media/webp-images/Seafood/tostadasDeCeviche.webp",
+    },
+    {
+      name: "Ceviche",
+      price: 19.99,
+      description: "Shrimp or fish.",
+      photo: "/media/webp-images/Seafood/ceviche.webp",
+    },
+    {
+      name: "Ceviche Mixto",
+      price: 23.99,
+      description: "Shrimp, fish & octopus, served with tostadas or crackers.",
+      photo: "/media/webp-images/Seafood/cevicheMixto.webp",
+    },
+    {
+      name: "Aguachile",
+      price: 22.0,
+      description: "Shrimp served with tostadas.",
+      photo: "/media/webp-images/Seafood/aguachiles.webp",
+    },
+    {
+      name: "Aguachile Mixto",
+      price: 28.0,
+      description: "Shrimp, scallops & octopus.",
+      photo: "/media/webp-images/Seafood/aguachileMixto.webp",
+    },
+  ],
+},
+
+{
+  key: "soups",
+  title: "Soups",
+  items: [
+    {
+      name: "Caldo de Res",
+      price: 15.99,
+      description: "Beef soup.",
+      photo: "/media/webp-images/Soups/caldoDeRez.webp",
+    },
+    {
+      name: "Menudo",
+      price: 15.99,
+      description:
+        "Traditional Mexican soup made with beef tripe (stomach lining) & red chilli peppers-based broth.",
+      photo: "/media/webp-images/Soups/menudo.webp",
+    },
+    {
+      name: "Pozole",
+      price: 15.99,
+      description:
+        "Traditional Mexican stew made with hominy & pork served with tostadas.",
+      photo: "/media/webp-images/Soups/pozole.webp",
+    },
+    {
+      name: "Caldo Camarón",
+      price: 16.99,
+      description: "Shrimp soup.",
+      photo: "/media/webp-images/Soups/caldoDeCamaron.webp",
+    },
+    {
+      name: "7 Mares",
+      price: 18.99,
+      description: "Seafood soup.",
+      photo: "/media/webp-images/Soups/7Mares.webp",
+    },
+    {
+      name: "7 Mares & ½ Mojarra",
+      price: 20.99,
+      description: "Seafood soup with 1/2 tilapia fish.",
+      photo: "/media/webp-images/Soups/7mares&_1/2_Mojara.webp",
+    },
+  ],
+},
+
 ];
 
 export const simpleFoodSections: DishSection[] = [
