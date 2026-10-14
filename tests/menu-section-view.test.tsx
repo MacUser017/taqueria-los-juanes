@@ -33,4 +33,19 @@ describe("MenuSectionView", () => {
     expect(screen.getByAltText("Tacos")).toBeInTheDocument();
     expect(screen.getByText("Close & keep browsing")).toBeInTheDocument();
   });
+
+  it("hides image buttons only for configured sections", () => {
+    render(
+      <MenuSectionView
+        hideImageButtonFor={["drinks"]}
+        sections={[
+          { key: "drinks", title: "Drinks", items: [{ name: "Soda", price: 3 }] },
+          { key: "cocktails", title: "Cocktails", items: [{ name: "Margarita", price: 10 }] },
+          { key: "daily-drink-specials", title: "Daily Drink Specials", items: [{ name: "Mojito", price: 8 }] },
+        ]}
+      />,
+    );
+
+    expect(screen.getAllByRole("button", { name: "Click to see image" })).toHaveLength(2);
+  });
 });

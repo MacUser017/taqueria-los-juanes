@@ -5,7 +5,7 @@ import { DishSection, MenuItem } from "@/data/menu";
 import { formatPrice } from "@/lib/price";
 import ImageModal from "./ImageModal";
 
-export default function MenuSectionView({ sections }: { sections: DishSection[] }) {
+export default function MenuSectionView({ sections, hideImageButtonFor = [] }: { sections: DishSection[]; hideImageButtonFor?: string[] }) {
   const [active, setActive] = useState<MenuItem | null>(null);
 
   return (
@@ -54,9 +54,11 @@ export default function MenuSectionView({ sections }: { sections: DishSection[] 
                   </p>
                 )}
 
-                <button onClick={() => setActive(item)} className="mt-1 self-start text-sm font-semibold text-lime underline underline-offset-2 hover:text-chile">
-                  Click to see image
-                </button>
+                {!hideImageButtonFor.includes(section.key) && (
+                  <button onClick={() => setActive(item)} className="mt-1 self-start text-sm font-semibold text-lime underline underline-offset-2 hover:text-chile">
+                    Click to see image
+                  </button>
+                )}
               </div>
             ))}
           </div>

@@ -25,7 +25,7 @@ export default function DrinksPage() {
           ))}
         </nav>
       </section>
-      <MenuSectionView sections={drinksMenu} />
+      <MenuSectionView sections={drinksMenu} hideImageButtonFor={["drinks"]} />
       <PlainListSection sections={plainDrinkSections} />
     </div>
   );
